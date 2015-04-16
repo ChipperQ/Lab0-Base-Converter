@@ -20,7 +20,7 @@ int main(void)
 
 int test_convert_bases()
 {
-		assert(convert_bases("1100", 2, 10)=="10");
+		assert(convert_bases("1100", 2, 10)=="12");
 		assert(convert_bases("C", 16, 2 )=="1100");
 		assert(convert_bases("10", 10, 2) == "1010");
 		assert(convert_bases("A3", 16, 2)=="10100011");
