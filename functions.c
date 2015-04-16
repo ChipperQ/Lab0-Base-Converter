@@ -9,10 +9,9 @@ April 2, 2015
 #include<string.h> 
 #include "functions.h"
 
-//void convert_bases(char str[20],int,int);
 
 // convert_bases method does the conversion with the provided input.
-void convert_bases(char str[20],int first_base,int convert_base) 
+char convert_bases(char str[20],int first_base,int convert_base) 
 { 
 	/* Iterates through the array of characters.
 	 Checks if a letter was inputted, if so it goes through the if statement.
@@ -48,7 +47,7 @@ void convert_bases(char str[20],int first_base,int convert_base)
 	// Prints the corresponding ASCII for the converted integer value
 	for(x = counter-1; x>= 0; x--) 
     { 
-    	printf("%c", str[x]); 
+    	return str[x];; 
     } 
 	// New line.
  	printf("\n"); 
