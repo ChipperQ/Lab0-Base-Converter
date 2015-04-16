@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "functions.h"
 
-int main(void) 
+//void convert_bases(char str[20],int,int);
+int main() 
 {    
 	// Max characters allowed
     char string[20]; 
 	// Creates int variables
-    int starting_base;
-		int converting_base; 
+    int starting_base,converting_base; 
 	/* Prompts the user to provide input. 
 		It asks for an integer and its current base.
 		Then asks what base they want to convert it to. */
@@ -19,5 +19,5 @@ int main(void)
 	// Next line
 	printf("\n");
 	return 0;
-	 
+	
 } 
