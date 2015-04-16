@@ -10,6 +10,7 @@ April 2, 2015
 #include "functions.h"
 
 
+
 // convert_bases method does the conversion with the provided input.
 char convert_bases(char str[20],int first_base,int convert_base) 
 { 
@@ -47,7 +48,7 @@ char convert_bases(char str[20],int first_base,int convert_base)
 	// Prints the corresponding ASCII for the converted integer value
 	for(x = counter-1; x>= 0; x--) 
     { 
-    	return str[x];; 
+    	printf("%c", str[x]); 
     } 
 	// New line.
  	printf("\n"); 
